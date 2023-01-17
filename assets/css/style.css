@@ -82,7 +82,7 @@ body li {
   height: 320px;
 }
 
-.hero-content h1, p {
+.hero-content h1 {
   color: #fff;
 }
 
@@ -101,7 +101,7 @@ footer div {
   height: 320px;
 }
 
-.about-content h2, p {
+.about-content h2 {
   color: #070707;
 }
 
@@ -149,6 +149,52 @@ footer div {
   background-color: #1e1e1e;
 }
 
-.price-cards h3, p {
+.price-cards h3 {
   color: #fff;
+}
+
+/* Sessions Section */
+
+.sessions-section {
+  width: 320px;
+  height: 1000px;
+}
+
+.sessions-section h2 {
+  color: #070707;
+  text-align: center;
+}
+
+.sessions-section div h3 {
+  color: #fff;
+  text-align: center;
+  
+}
+
+.sessions-section, button {
+  text-align: center;
+}
+
+.session-card-1 {
+  width: 320px;
+  height: 320px;
+  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.session-card-2 {
+  width: 320px;
+  height: 320px;
+  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.session-card-3 {
+  width: 320px;
+  height: 320px;
+  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
