@@ -1,0 +1,61 @@
+/* Remove default margin */
+  * {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+  }
+  
+
+/* Desktop 1440px */
+
+body {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  /* margin: 0px 120px; */
+}
+
+/* Remove default styling from List and Anchor tags */
+body a {
+  text-decoration: none;
+}
+
+body li {
+  list-style: none;
+}
+
+/* Header and Logo */
+
+/* .primary-header {
+    max-width: 1440px;
+    max-height: 150px;
+} */
+
+.feel-good-logo {
+    width: 100%;
+    /* height: 150px; */
+    /* float: left; */
+}
+
+.feel-good-logo img {
+  width: 100%;
+  height: auto;
+}
+
+/* Primary Navigation */
+
+.primary-nav li {
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 5px;
+}
+
+.primary-nav ul {
+  background-color: #070707;
+}
+
+.primary-nav a {
+  display: block;
+  width: 100%;
+  color: #fff;
+}
