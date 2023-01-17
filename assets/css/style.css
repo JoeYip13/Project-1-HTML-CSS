@@ -62,9 +62,14 @@ body li {
 
 /* Hero Section */
 
+.hero-section {
+  width: 320px;
+  height: 750px;
+}
+
 .hero-img {
   width: 320px;
-  height:320px;
+  height: 320px;
   background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -73,8 +78,17 @@ body li {
 .hero-content {
   background-color: #1e1e1e;
   text-align: center;
+  width: 320px;
+  height: 320px;
 }
 
 .hero-content h1, p {
   color: #fff;
+}
+
+/* Footer  */
+
+footer div {
+  background-color: #070707;
+  height: 100px;
 }
