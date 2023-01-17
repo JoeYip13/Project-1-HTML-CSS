@@ -128,3 +128,27 @@ footer div {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+/* Memberships Section */
+
+.memberships-section {
+  width: 320px;
+  height: 750px;
+  background-color: #070707;
+}
+
+.memberships-section h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.price-cards {
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  background-color: #1e1e1e;
+}
+
+.price-cards h3, p {
+  color: #fff;
+}
