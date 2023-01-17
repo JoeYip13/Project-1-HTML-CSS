@@ -92,3 +92,39 @@ footer div {
   background-color: #070707;
   height: 100px;
 }
+
+/* About Section */
+
+.about-content {
+  text-align: center;
+  width: 320px;
+  height: 320px;
+}
+
+.about-content h2, p {
+  color: #070707;
+}
+
+.about-card-1 {
+  width: 320px;
+  height: 320px;
+  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-card-2 {
+  width: 320px;
+  height: 320px;
+  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-card-3 {
+  width: 320px;
+  height: 320px;
+  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
