@@ -31,16 +31,24 @@ img {
 h1 {
   color: #fff;
   font-size: 42px;
+  text-align: center;
 }
 
 h2 {
   color: #070707;
   font-size: 32px;
+  text-align: center;
 }
 
 h3 {
   color: #070707;
   font-size: 26px;
+}
+
+h4 {
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
 }
 
 .active {
@@ -178,26 +186,20 @@ footer i {
 
 /* Memberships Section */
 
-/* .memberships-section {
-  width: 320px;
-  height: 750px;
+.memberships-section {
+  position: relative;
   background-color: #070707;
-}
-
-.memberships-section h2 {
-  text-align: center;
-  color: #fff;
+  padding: 20px 0px;
 }
 
 .price-cards {
-  width: 320px;
-  height: 320px;
+  position: relative;
   text-align: center;
   background-color: #1e1e1e;
-}
-
-.price-cards h3 {
-  color: #fff;
+  margin: 20px 0px;
+  height: 350px;
+  border-radius: 10px;
+  border: 5px groove #fff;
 }
 
 /* Sessions Section */
