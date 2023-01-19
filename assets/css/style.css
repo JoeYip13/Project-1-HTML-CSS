@@ -1,14 +1,14 @@
 /* Remove default margin */
-  * {
-    margin: 0;
-    padding: 0;
-    font: inherit;
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
 
 /* Small mobile screens 320px */
 
-/* Body Styling */ 
+/* Body Styling */
 
 body {
   font-family: Inter, sans-serif;
@@ -40,10 +40,12 @@ body li {
 
 /* Header and Logo */
 
-
-
 .feel-good-logo {
-    width: 100%;
+  width: 100%;
+}
+
+.feel-good-logo:hover {
+  cursor: pointer;
 }
 
 .feel-good-logo img {
@@ -65,6 +67,13 @@ body li {
   display: block;
   width: 100%;
   color: #fff;
+  transition: 0.5s;
+
+}
+
+#primary-nav a:hover {
+  background-color: #fff;
+  color: #070707;
 }
 
 /* Hero Section */
@@ -76,11 +85,29 @@ body li {
   width: 100%;
   height: 300px;
 }
+
 .content {
-position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sign-up-now {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.sign-up-now:hover {
+  background-color: #070707;
+  color: #fff;
 }
 
 /* Footer  */
@@ -101,7 +128,7 @@ footer i {
   margin: 10px;
 }
 
-.social-media-links{
+.social-media-links {
   margin: 10px;
 }
 
