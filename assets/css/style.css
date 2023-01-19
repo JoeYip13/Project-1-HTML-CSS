@@ -20,13 +20,31 @@ img {
   max-width: 100%;
 }
 
-p {
+.white-font {
   color: #fff;
+}
+
+.black-font {
+  color: #070707;
 }
 
 h1 {
   color: #fff;
   font-size: 42px;
+}
+
+h2 {
+  color: #070707;
+  font-size: 32px;
+}
+
+h3 {
+  color: #070707;
+  font-size: 26px;
+}
+
+.active {
+  font-weight: bold;
 }
 
 /* Remove default styling from List and Anchor tags */
@@ -139,39 +157,24 @@ footer i {
 
 /* About Section */
 
-/* .about-content {
+.about-content {
+  position: relative;
   text-align: center;
-  width: 320px;
-  height: 320px;
+  width: 100%;
+  margin: 20px 0px;
 }
 
-.about-content h2 {
-  color: #070707;
+.card-img {
+  position: relative;
 }
 
-.about-card-1 {
-  width: 320px;
-  height: 320px;
-  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
+.card-content {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 10px 0px;
 }
 
-.about-card-2 {
-  width: 320px;
-  height: 320px;
-  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.about-card-3 {
-  width: 320px;
-  height: 320px;
-  background-image: url('../images/Free\ Man\ Holding\ Black\ Dumbbell\ Stock\ Photo.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
 
 /* Memberships Section */
 
