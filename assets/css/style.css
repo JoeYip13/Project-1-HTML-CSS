@@ -269,3 +269,25 @@ iframe {
 b {
   font-weight: bold;
 }
+
+/* Media Queries */
+
+/* For small screen sizes from 700px upto 950px */ 
+
+@media screen and (min-width: 700px) {
+
+  .feel-good-logo {
+    width: 30%;
+    margin: auto;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list li {
+    flex-grow: 1;
+    font-size: 1.3rem;
+    border: 2px solid #fff;
+  }
+}
