@@ -291,3 +291,61 @@ b {
     border: 2px solid #fff;
   }
 }
+
+/* For large screen sizes from 950px upto 1440px */ 
+
+@media screen and (min-width: 950px) {
+
+  #primary-header {
+    display: flex;
+  }
+
+  #primary-nav {
+    flex-grow: 1;
+    align-self: center;
+  }
+
+  .feel-good-logo {
+    width: 20%;
+    margin: 0;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-list li {
+    flex-grow: 1;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+  }
+
+  /* Hero Section */
+
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #070707;
+    height: 500px;
+  }
+
+  .hero-img {
+    order: 2;
+    align-self: center;
+    width: 75%;
+  }
+
+  .hero-img img {
+    border-radius: 10px;
+  }
+
+  .hero-content {
+    order: 1;
+    align-self: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    margin-left: 10px;
+  }
+
+}
