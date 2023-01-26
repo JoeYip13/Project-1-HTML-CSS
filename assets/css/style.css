@@ -31,6 +31,7 @@ img {
 h1 {
   color: #fff;
   font-size: 42px;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -117,18 +118,17 @@ body li {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  line-height: 1.5;
 }
 
 .sign-up-now {
-  margin-top: 10px;
   padding: 5px;
-  font-size: 16px;
-  text-decoration: none;
-  border: none;
   border-radius: 5px;
   text-align: center;
   transition-duration: 0.5s;
   cursor: pointer;
+  background-color: #fff;
+  color: #070707;
 }
 
 .sign-up-now:hover {
@@ -365,3 +365,121 @@ b {
   }
 
 }
+
+/* For large screen sizes from 1440px upwards */ 
+
+
+@media screen and (min-width: 1440px) {
+
+  /* Increase font size for desktop viewing */
+  body {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+   
+  }
+
+  h4 {
+    font-size: 2.0rem;
+  }
+
+  /* Landing Page at 1440px */
+
+  /* Makes the hero section a fixed height and align content in the center of the section */
+  .hero-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    background-color: #070707;
+    height: 500px;
+  }
+
+  /* Giving a width to the image keeps the image in perspective to the page */
+  .hero-img {
+    order: 2;
+    align-self: center;
+    width: 660px;
+  }
+  /* Giving a width to the content keeps the content area in perspective: to the page */
+  .hero-content {
+    order: 1;
+    align-self: center;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    width: 1000px;
+    margin: 0px;
+  }
+
+  .content {
+    line-height: 1.8;
+  }
+
+  .card-content {
+    line-height: 1.8;
+  }
+  
+  /* About Section at 1440px */
+
+  /* Display of flex aligns the cards in a row and can center them evenly across the page */
+  .card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /* Re-sized the card images to suit desktop viewing and to keep the images within aspect ratio */
+  .card-img img {
+    object-fit: cover;
+    height: 600px;
+    width: 500px;
+  }
+
+  .price-card-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  
+  .price-cards {
+    margin: 100px;
+  }
+
+  /* Contact Page at 1440px  */
+
+  /* Display of flex aligns the form and contact photo in a row and can center them evenly across the page */
+  .contact-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .contact-photo {
+    width: 50%
+  }
+
+  /* Display of flex aligns the location map and contact information in row and can center them evenly across the page */
+  .location-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .location-map {
+    width: 100%
+  }
+
+  iframe {
+    height: 500px
+  }
+
+  .contact-details {
+    width: 50%;
+  }
+
+}
+
