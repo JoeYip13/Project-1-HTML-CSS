@@ -122,7 +122,6 @@ body li {
 }
 
 .sign-up-now {
-  padding: 5px;
   border-radius: 5px;
   text-align: center;
   transition-duration: 0.5s;
@@ -262,6 +261,10 @@ input[type=submit]:hover {
   border: 3px solid #fff;
 }
 
+.contact-photo img {
+  border-radius: 10px;
+}
+
 /* Location Section */
 
 .location-section {
@@ -274,6 +277,7 @@ iframe {
   width: 100%;
   height: 300px;
   margin: 20px 0px;
+  border-radius: 10px;
 }
 
 /* Contact Infomation */
@@ -307,6 +311,15 @@ b {
     flex-grow: 1;
     font-size: 1.3rem;
     border: 2px solid #fff;
+  }
+  /* Sessions Section */
+  /* Increase the padding on the sign up buttons to work in aspect of the content */
+  .sign-up-now {
+    padding: 5px;
+  }
+  /* Increase the line height to be more readable */
+  .card-content {
+    line-height: 1.8;
   }
 }
 
