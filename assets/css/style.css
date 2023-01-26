@@ -292,11 +292,13 @@ b {
 
 @media screen and (min-width: 700px) {
 
+  /* Reduce the size of the logo and centre it in the middle at the top of the page */
   .feel-good-logo {
     width: 30%;
     margin: auto;
   }
 
+  /* Display the navigation bar in a row */
   .nav-list {
     display: flex;
   }
@@ -312,6 +314,7 @@ b {
 
 @media screen and (min-width: 950px) {
 
+  /* Display of flex for the header repositions the logo and nav bar to be displayed in a row at the top of the screen */
   #primary-header {
     display: flex;
   }
@@ -338,6 +341,7 @@ b {
 
   /* Hero Section */
 
+  /* Display of flex helps position the content and hero image in a row across the hero section */
   .hero-section {
     display: flex;
     justify-content: center;
@@ -346,6 +350,7 @@ b {
     height: 500px;
   }
 
+  /* Re-order the hero image and content here so instead of having the image display on the left, I wanted the image on the right and the content to the left */
   .hero-img {
     order: 2;
     align-self: center;
@@ -401,13 +406,13 @@ b {
     height: 500px;
   }
 
-  /* Giving a width to the image keeps the image in perspective to the page */
+  /* Gave a width to the image keeps the image in perspective to the page */
   .hero-img {
     order: 2;
     align-self: center;
     width: 660px;
   }
-  /* Giving a width to the content keeps the content area in perspective: to the page */
+  /* Gave a width to the content keeps the content area in perspective: to the page */
   .hero-content {
     order: 1;
     align-self: center;
@@ -417,6 +422,12 @@ b {
     margin: 0px;
   }
 
+  /* Extended the height of the footer as the social media icons over lapped the bottom footer */
+  footer {
+    height: 150px;
+  }
+
+  /* Space the content out to make it more readable */
   .content {
     line-height: 1.8;
   }
@@ -440,6 +451,7 @@ b {
     width: 500px;
   }
 
+  /* Used grid to help display the price cards in a row */
   .price-card-container {
     display: grid;
     grid-template-columns: auto auto auto;
