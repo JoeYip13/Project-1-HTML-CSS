@@ -64,6 +64,7 @@
 
     - [Validation](#validation)
     - [General Testing](#general-testing)
+    - [PageSpeed Insights](#pagespeed-insights)
 
     </li>
     </ul>
@@ -258,6 +259,14 @@ The primary color used is black. With some contrasting grey which helps highligh
 
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+## PageSpeed Insights
+
+<div align="center">
+    <img src="assets/images/pagespeed.jpg" alt="Page Speed Insights">
+</div>
+
+- Tested performance on PageSpeed Insights [PageSpeed Insights](https://pagespeed.web.dev/)
 
 
 ## General Testing
