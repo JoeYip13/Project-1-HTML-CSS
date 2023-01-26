@@ -1,108 +1,300 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Feel Good Gym and Training
 
-Welcome JoeYip13,
+<div align="center"><img src="assets/images/Feel-Good-Logo.jpg" alt="Feel Good Logo"></div>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<div align="center"><img src="assets/images/Feel-Good-Gym-Am-I-Responsive.jpg" alt="Feel Good Gym Am I Responsive Image"></div>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Feel Good Gym](https://joeyip13.github.io/Project-1-HTML-CSS/index.html) is designed as a portfolio for a gym website. Its goal is to highlight the gym and to create a motivation feel for wanting to sign up and become a member of at the gym. 
 
-## Gitpod Reminders
+## Table of Contents 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. <details open>
+    <summary><a href="#ux">UX</a></summary>
 
-`python3 -m http.server`
+    <ul>
+    <li><details>
+    <summary><a href="#goals">Goals</a></summary>
 
-A blue button should appear to click: _Make Public_,
+    - [Visitor Goals](#visitor-goals)
+    - [Business Goals](#business-goals)
+    - [User Stories](#user-stories)
+    </details></li>
 
-Another blue button should appear to click: _Open Browser_.
+    <li><details>
+    <summary><a href="#visual-design">Visual Design</a></summary>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    - [Figma](#figma)
+    - [Logo](#Logo)
+    - [Fonts](#fonts)
+    - [Icons](#icons)
+    - [Colors](#colors)
+    - [Images](#images)
+    - [Styling](#styling)
+    </details></li>
+    </ul>
+</details>
 
-A blue button should appear to click: _Make Public_,
+2. <details open>
+    <summary><a href="#features">Features</a></summary>
 
-Another blue button should appear to click: _Open Browser_.
+    <ul>
+    <li><details>
+    <summary><a href="#page-elements">Page Elements</a></summary>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - [All Pages](#all-pages)
+    - [Index Page](#index-page)
+    - [About Page](#about-page)
+    - [Memberships Page](#memberships-page)
+    - [Sessions Page](#sessions-page)
+    - [Contact Page](#contact-page)
+    </details></li>
 
-To log into the Heroku toolbelt CLI:
+    <li><details>
+    <summary><a href="#feature-ideas">Feature Ideas</a></summary>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    - [Future Feature Ideas](#future-feature-ideas)
+    </details></li>
+    </ul>
+</details>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+3. <details open>
+    <summary><a href="#testing">Testing</a></summary>
+    <ul>
+    <li>
 
-------
+    - [Validation](#validation)
+    - [General Testing](#general-testing)
 
-## Release History
+    </li>
+    </ul>
+    </details>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+4. <details open>
+    <summary><a href="#deployment">Deployment</a></summary>
+    <ul>
+    <li>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+    - [GitHub](#git-hub)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+    </ul>
+    </li>
+    </details>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+5. <details open>
+    <summary><a href="#credits">Credits and Contact</a></summary>
+    <ul>
+    <li>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    - [Credit](#credit)
+    - [Content](#content)
+    - [Media](#media)
+    - [Contact](#contact)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+    </ul>
+    </li>
+    </details>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+----
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# UX 
+## Goals 
+### Visitor Goals 
+The target audience for Feel Good Gym and Training are:
+- People who are in search of a gym. 
+- People who are interested in different courses the gym offers. 
+- People who are looking to feel good about themselves by going for a workout.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Business Goals 
+The Business Goals of Feel Good Gym and Training are:
+- Gain members through the contact page. 
+- Gain interest and connect through social media platforms. 
+- Advertise a unique feature that other gyms may not offer, I.e Boot Camps, Marathon, One to One.  
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### User Goals 
+User Goals are: 
+- Display a clean easy to navigate wesbite. 
+- Easy to find pricing structure for signing up.
+- What unique courses/sessions the gym has to offer.  
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### User Stories
+1. As a user interested in working out at a gym, I expect to see a easy to ready pricing structure.
+0. If I was to sign up and become a member, I expect to know where.
+0. Location of the gym and contact details should I have further questions about the gym. 
+0. Some clear photos of the gym facilities.
+0. What the gym has to offer that is unique to them. 
+0. Main goal purpose for the gym. 
+0. Follow the gym updates and offers they may have to offer through social media.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Visual Design
+### Figma
+Figma was used in this process to help layout the structure and design of the website. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+For desktop:
+<div><img src="assets/images/Feel-Good-Gym-Design3.jpg" alt="Feel Good Gym Design on Figma"></div>
+For Mobile:
+<div><img src="assets/images/Feel-Good-Gym-Design4.jpg" alt="Feel Good Gym Design on Figma"></div>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Logo
+Adobe Express was used to create the logo. 
+<div><img src="assets/images/Feel-Good-Logo-Design2.jpg" alt="Feel Good Gym Logo Design on Adobe Express"></div>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Fonts 
+- Primary font was Inter 400. I chose this font because it showed a neutral, plain but informative. This font also worked well against the color scheme. 
+<div><img src="assets/images/Google-Fonts-Inter-400.jpg" alt="Google Fonts Inter 400"></div>
 
-------
+### Icons
 
-## FAQ about the uptime script
+<div align="center"><img src="assets/images/Font-Awesome-Icons.jpg" alt="Font Awesome Icons"></div>
 
-**Why have you added this script?**
+- Icons are taken from the [Font Awesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
+- Icons are utilised in the footer for social media links and the "top arrow" take the user back to the top menu page.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Colors 
 
-**How will this affect me?**
+- I wanted the site to maintain a minimal aesthetic, colors are very basic and clean for highlighting the photos.
+The primary color used is black. With some contrasting grey which helps highlight certain areas of content on the webpage. White was used to offset the black. The use of the colors was to help with the overall layout of the page, initially on desktop it was to break up different sections of the page. 
+- Text was used either black or white depending on the back ground color of the page. I wanted it to be a good contrast between the pages. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<div align="center"><img src="assets/images/colors.jpg" alt="Color pallete" style="border: 1px solid white"></div>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Images
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<div align="center"><img src="assets/images/photos.jpg" alt="Images"></div>
 
-**So….?**
+- All images are taken from Pexels. These images are consistent in style and color to the website. 
+- Images are responsive. For desktop they align in a row across the desktop and as the screen becomes smaller the images stack ontop of one another. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Styling 
+- For this project I primarily used HTML and CSS to structure and style the website. 
 
-**Can I opt out?**
+----
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+# Features
+## Page Elements
+### All Pages
+#### Navigation Bar
+<div align="center">
+    <img src="assets/images/navbar.jpg" alt="Navigation Bar Desktop View">
+    <img src="assets/images/navbar2.jpg" alt="Navigation Bar for Mobile View">
+</div>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- Featured on all five pages, the full responsive navigation bar includes links to the Logo, About, Memberships, Sessions, Contact page and is identical in each page to allow for easy navigation.
+- This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- The Navigation Bar is simple keeping to the theme of website. 
+- Each link is categorised for easy to navigate through the website. 
+- The Navigation bar will highlight when the cursor is hovered over the link for a nice user experience.
+- The Navigation text will highlight bold when on that particular page, to identify which page the current user is on. 
+- For Mobile the logo will remain central on top of the screen and the nav bar will stack below for the user to easily scroll through with one hand. 
 
-**Anything more?**
+### Footer
+<div align="center">
+    <img src="assets/images/footer.jpg" alt="Footer for Desktop View">
+    <img src="assets/images/footer2.jpg" alt="Footer for Mobile View">
+</div>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- The footer remains the same style on desktop and mobile to keep the consistency. 
+- Consist of a "top arrow" icon to help the user return to the top of the page. 
+- Social media links are located in the footer. 
 
----
+### Index Page
+#### Hero Section
+<div align="center">
+    <img src="assets/images/index-page.jpg" alt="Index page Hero Section">
+</div>
 
-Happy coding!
+- The index page includes a image and a content box aligned next to each with a link that will take them directly to the contact page to sign up.
+- This displays a clear message from what the website is about. 
+
+### About Page
+<div align="center">
+    <img src="assets/images/about-us.jpg" alt="About us page">
+</div>
+
+- Three card layout is used to display the images and content used to decribe "about us".
+- A black transparent background behind the card's content helps emphasize the content. 
+- The three cards are responsive and will stack ontop of another when the screen size becomes smaller for mobile viewing.
+- Images are used are consistent with the subject content. 
+
+### Memberships Page
+<div align="center">
+    <img src="assets/images/memberships-page.jpg" alt="Memberships page">
+</div>
+
+- Three card layout is used to display the content cards. This is keeping with the same design as the About Us Page.
+- Each card has a link to sign up which takes the user to the contact page. 
+- The three cards are responsive and will stack ontop of another when the screen size becomes smaller for mobile viewing.
+
+### Sessions Page
+<div align="center">
+    <img src="assets/images/sessions-page.jpg" alt="Sessions page">
+</div>
+
+- Three card layout again is used to display the content cards. This is keeping with the same design as the About Us and Memberships page. 
+- A black transparent background behind the card's content helps emphasize the content. 
+- Each card has a link to the contact page.
+- The three cards are responsive and will stack ontop of another when the screen size becomes smaller for mobile viewing.
+
+### Contact Page
+<div align="center">
+    <img src="assets/images/contact-page.jpg" alt="Contact page">
+</div>
+
+- This page will allow the user to get signed up to Feel Good Gym and Training or take them to the contact page for more infomaation. 
+- The user will be asked to submit their full name and email address.
+- Page is broken down into two sections the contact form section and the location section. I've used a black back ground for the contact form section and a white background for the location section for a much better contrast on the page. 
+- The interactive location map highlights the location of the gym so users can easy find the gym.
+- Contact information along side the location map so user can easy find the contact details. 
+
+
+### Feature Ideas
+#### Future Feature Ideas
+- Another feature idea would be to make for desktop viewing, the user can see all the pages in one single page.
+- Links will be amended to jump from areas of the page. 
+
+----
+
+# Testing 
+## Validation
+
+- HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+
+## General Testing
+
+- Each time a feature was added, all the functions were tested to see if there was an impact.
+- The site was sent to friends for feedback and testing.
+- All forms have validation and will not submit without the proper information.
+- .gitignore file has been included to prevent system file commits.
+
+----
+
+# Deployment
+## Git Hub
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- In the GitHub repository, navigate to the Settings tab 
+- From the source section drop-down menu, select the Main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://github.com/JoeYip13/Project-1-HTML-CSS/settings/pages
+
+---- 
+
+# Credits 
+
+- W3 Schools - https://www.w3schools.com/
+- README.md for the template - https://github.com/Code-Institute-Solutions/readme-template
+- Rory Patrick Sheridan README.md to help with structure content in my README.md - https://github.com/Ri-Dearg/horizon-photo/blob/master/README.md#page-elements
+
+## Content 
+
+- The hero content text is a quote from Mahatma Gandhi.
+- The remaining content was generated from myself.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+## Media
+
+- All images used are from Pexels - https://www.pexels.com/
+- The location map used is from Google Maps - https://www.google.co.uk/maps/@22.0382004,55.2604116,4z
+
