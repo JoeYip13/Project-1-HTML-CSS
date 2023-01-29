@@ -547,7 +547,6 @@ b {
   /* Re-sized the card images to suit desktop viewing and to keep the images within aspect ratio */
   .card-img img {
     object-fit: cover;
-    /* height: 600px; */
     width: 500px;
   }
 
@@ -564,7 +563,6 @@ b {
 
   .price-cards {
     height: 500px;
-    /* margin: 100px; */
   }
 
   /* Contact Page */
@@ -579,7 +577,7 @@ b {
   /* Contact Image */
   /* Re-size the width to suit large screen viewing */
   .contact-img {
-    width: 50%
+    width: 50%;
   }
 
   /* Display of flex aligns the location map and contact information in row and can center them evenly across the page */
@@ -591,18 +589,18 @@ b {
 
   /* Location Map */
   .location-map {
-    width: 100%
+    width: 100%;
   }
 
   iframe {
-    height: 500px
+    height: 500px;
   }
   
   /* Contact Details */
   .contact-details {
     width: 50%;
     text-align: left;
-    margin-left: 20px ;
+    margin-left: 20px;
   }
 
 }
