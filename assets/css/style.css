@@ -1,14 +1,58 @@
+/*=============
+  Table of Contents
+  =============
+
+Designed and styled for mobile first. Media queries for larger screen viewing.
+
+1.0 Mobile Screens min 320px upto 425px
+  1.1 Body Styling
+  1.2 Header and Logo
+  1.3 Navigation Bar
+  1.4 Footer
+  1.5 Buttons
+
+
+2.0 Hero Section
+  2.1 Hero Image
+  2.2 Hero Content
+
+3.0 About Page
+  3.1 Card Image
+  3.2 Bottom Card Highlight
+  3.3 Card Content
+
+4.0 Memberships Page
+  4.1 Price Cards
+  4.2 Price Content
+
+5.0 Sessions Page
+
+6.0 Contact Page
+  6.1 Contact Form
+  6.2 Contact Image
+  6.3 Location Section
+  6.4 Location Map
+  6.5 Contact Details
+
+7.0 Media Queries
+  7.1 Small Screen Size from 700px upto 950px
+  7.2 Large Screen Sizes from 950px upwards
+
+=============*/
+
+
+/*==============
+  1.0 Mobile screens min 320px upto 700px  
+  ============== */
+
+/* 1.1 Body Styling */
+
 /* Remove default margin */
 * {
   margin: 0;
   padding: 0;
   font: inherit;
 }
-
-
-/* Small mobile screens 320px */
-
-/* Body Styling */
 
 body {
   font-family: Inter, sans-serif;
@@ -30,7 +74,7 @@ img {
 
 h1 {
   color: #fff;
-  font-size: 42px;
+  font-size: 36px;
   font-weight: bold;
   text-align: center;
 }
@@ -56,16 +100,7 @@ h4 {
   font-weight: bold;
 }
 
-/* Remove default styling from List and Anchor tags */
-body a {
-  text-decoration: none;
-}
-
-body li {
-  list-style: none;
-}
-
-/* Header and Logo */
+/* 1.2 Header and Logo */
 
 .feel-good-logo {
   width: 100%;
@@ -80,7 +115,7 @@ body li {
   height: auto;
 }
 
-/* Primary Navigation */
+/* 1.3 Navigation Bar */
 
 #primary-nav li {
   list-style: none;
@@ -91,11 +126,11 @@ body li {
 }
 
 #primary-nav a {
+  text-decoration: none;
   display: block;
   width: 100%;
   color: #fff;
   transition: 0.5s;
-
 }
 
 #primary-nav a:hover {
@@ -103,39 +138,7 @@ body li {
   color: #070707;
 }
 
-/* Hero Section */
-
-.hero-content {
-  position: relative;
-  background-color: #1e1e1e;
-  text-align: center;
-  width: 100%;
-  height: 300px;
-}
-
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  line-height: 1.5;
-}
-
-.sign-up-now {
-  border-radius: 5px;
-  text-align: center;
-  transition-duration: 0.5s;
-  cursor: pointer;
-  background-color: #fff;
-  color: #070707;
-}
-
-.sign-up-now:hover {
-  background-color: #070707;
-  color: #fff;
-}
-
-/* Footer  */
+/* 1.4 Footer */
 
 footer {
   position: relative;
@@ -162,43 +165,111 @@ footer i {
   margin: 10px;
 }
 
-/* About Section */
+/* 1.4 Buttons */
 
-.about-content {
+.button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Sign Up Now Button */
+.sign-up-now {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  transition-duration: 0.5s;
+  cursor: pointer;
+  background-color: #fff;
+  color: #070707;
+}
+
+.sign-up-now:hover {
+  background-color: #070707;
+  color: #fff;
+}
+
+/*=============
+  2.0 Hero Section
+  ============= */
+
+.hero-section {
+  background-color: #070707;
+  padding: 10px 0;
+}
+
+/* 2.1 Hero Image */
+.hero-img {
+  margin: 10px;
+}
+
+.hero-img img {
+  border-radius: 10px;
+}
+
+/* 2.2 Hero Content */
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  height: 300px;
+  margin: 10px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.content {
+  text-align: center;
+  align-self: center;
+  line-height: 1.5;
+}
+
+/*=============
+  3.0 About Page
+  ============= */
+
+.about-section {
   position: relative;
   text-align: center;
   width: 100%;
   margin: 20px 0px;
 }
 
+/* 3.1 Card Image */
 .card-img {
   position: relative;
-  margin: 10px 0px;
+  height: 500px;
+  margin: 10px 10px;
 }
 
 .card-img img {
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
   border-radius: 10px;
 }
 
+/* 3.2 Bottom Card Highlight */
 .bottom-card-highlight {
   position: absolute;
   text-align: center;
   bottom: 0;
   width: 100%;
-  height: 30%;
+  height: 20%;
   padding: 10px 0px;
   background-color: rgba(7, 7, 7, 0.7);
   border-radius: 0 0 10px 10px;
 }
 
-.card-content {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/* 3.3 Card Content */
+.card-content p {
+  font-size: 1rem;
 }
 
-/* Memberships Section */
+/*=============
+  4.0 Memberships Page
+  ============= */
 
 .memberships-section {
   position: relative;
@@ -206,39 +277,68 @@ footer i {
   padding: 20px 0px;
 }
 
+/* 4.1 Price Cards */
 .price-cards {
-  position: relative;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #1e1e1e;
-  margin: 20px 0px;
+  margin: 10px 10px;
   height: 350px;
   border-radius: 10px;
-  border: 5px groove #fff;
+  border: 2px solid #fff;
 }
 
-/* Sessions Section */
+/* 4.2 Price Content */
+.price-content li {
+  color: #fff;
+}
+
+.price-content {
+  line-height: 1.5;
+  padding: 10px;
+  margin: 20px;
+}
+
+/*=============
+  5.0 Sessions Page
+  ============= */
 
 .sessions-section {
   text-align: center;
   padding: 20px 0px;
 }
 
-/* Contact Section */
+.card-content .button {
+  margin-top: 10px;
+}
+
+/*=============
+  6.0 Contact Page
+  ============= */
 
 .contact-section {
   background-color: #070707;
   padding: 20px 0px;
 }
 
-/* Contact Form */
+/* 6.1 Contact Form */
 
 .contact-form {
-  padding: 20px 10px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  background-color: #1e1e1e;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.contact-form h4 {
+  margin-bottom: 20px;
 }
 
 input {
-width: 100%;
-margin: 10px 0px;
+  width: 100%;
+  margin: 5px 0px;
 }
 
 label {
@@ -246,7 +346,7 @@ label {
 }
 
 input[type=submit] {
-  width: 25%;
+  width: 30%;
   margin-top: 10px;
   padding: 5px;
   border: none;
@@ -261,17 +361,27 @@ input[type=submit]:hover {
   border: 3px solid #fff;
 }
 
-.contact-photo img {
+/* 6.2 Contact Image */
+
+.contact-img {
+  margin: 10px;
+}
+
+.contact-img img {
   border-radius: 10px;
 }
 
-/* Location Section */
+/* 6.3 Location Section */
 
 .location-section {
   margin: 20px 0px;
 }
 
-/* Contact Map */
+/* 6.4 Location Map */
+
+.location-map {
+  margin: 10px;
+}
 
 iframe {
   width: 100%;
@@ -280,7 +390,7 @@ iframe {
   border-radius: 10px;
 }
 
-/* Contact Infomation */
+/* 6.5 Contact Details */
 
 .contact-details {
   text-align: center;
@@ -290,106 +400,81 @@ b {
   font-weight: bold;
 }
 
-/* Media Queries */
+/*=============
+  7.0 Media Queries
+  ============= */
 
-/* For small screen sizes from 700px upto 950px */ 
+/* 7.1 For small screen sizes from 700px upto 950px */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 950px) {
 
+  /* Logo */
   /* Reduce the size of the logo and centre it in the middle at the top of the page */
   .feel-good-logo {
     width: 30%;
     margin: auto;
   }
-
+  /* Navigation Bar */
   /* Display the navigation bar in a row */
   .nav-list {
     display: flex;
   }
-
+  /* Extends the navigation bar to full width of the screen */
   .nav-list li {
     flex-grow: 1;
     font-size: 1.3rem;
     border: 2px solid #fff;
   }
+
+  /* About Page */
+  /* Re-position the images */
+  .card-img img {
+    object-position: 0% 30%;
+  }
+
   /* Sessions Section */
   /* Increase the padding on the sign up buttons to work in aspect of the content */
   .sign-up-now {
     padding: 5px;
   }
+
   /* Increase the line height to be more readable */
   .card-content {
-    line-height: 1.8;
+    line-height: 1.5;
   }
 }
 
-/* For large screen sizes from 950px upto 1440px */ 
+/* 7.2 For large screen sizes from 950px upwards */
 
 @media screen and (min-width: 950px) {
 
-  /* Display of flex for the header repositions the logo and nav bar to be displayed in a row at the top of the screen */
-  #primary-header {
-    display: flex;
-  }
-
-  #primary-nav {
-    flex-grow: 1;
-    align-self: center;
-  }
-
-  .feel-good-logo {
-    width: 20%;
-    margin: 0;
-  }
-
-  .nav-list {
-    display: flex;
-  }
-
-  .nav-list li {
-    flex-grow: 1;
-    font-size: 1.2rem;
-    border: 2px solid #fff;
-  }
-
-  /* Hero Section */
-
-  /* Display of flex helps position the content and hero image in a row across the hero section */
-  .hero-section {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    background-color: #070707;
-    height: 500px;
-  }
-
-  /* Re-order the hero image and content here so instead of having the image display on the left, I wanted the image on the right and the content to the left */
-  .hero-img {
-    order: 2;
-    align-self: center;
-    width: 75%;
-  }
-
-  .hero-img img {
-    border-radius: 10px;
-  }
-
-  .hero-content {
-    order: 1;
-    align-self: center;
-    border-radius: 10px;
-    border: 2px solid #fff;
-    margin-left: 10px;
-  }
-
+/* Header and Logo */
+/* Display of flex for the header repositions the logo and nav bar to be displayed in a row at the top of the screen */
+#primary-header {
+  display: flex;
 }
 
-/* For large screen sizes from 1440px upwards */ 
+#primary-nav {
+  flex-grow: 1;
+  align-self: center;
+}
 
+.feel-good-logo {
+  width: 20%;
+  margin: 0;
+}
 
-@media screen and (min-width: 1440px) {
+.nav-list {
+  display: flex;
+}
 
-  /* Increase font size for desktop viewing */
+.nav-list li {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  border: 2px solid #fff;
+}
+
+  /* Increase font size */
   body {
     font-size: 1.5rem;
   }
@@ -400,14 +485,14 @@ b {
 
   h2 {
     font-size: 3rem;
-   
+
   }
 
   h4 {
     font-size: 2.0rem;
   }
 
-  /* Landing Page at 1440px */
+  /* Index Page */
 
   /* Makes the hero section a fixed height and align content in the center of the section */
   .hero-section {
@@ -425,6 +510,7 @@ b {
     align-self: center;
     width: 660px;
   }
+
   /* Gave a width to the content keeps the content area in perspective: to the page */
   .hero-content {
     order: 1;
@@ -447,9 +533,10 @@ b {
 
   .card-content {
     line-height: 1.8;
+    padding: 0 10px;
   }
-  
-  /* About Section at 1440px */
+
+  /* About Page */
 
   /* Display of flex aligns the cards in a row and can center them evenly across the page */
   .card-container {
@@ -460,21 +547,27 @@ b {
   /* Re-sized the card images to suit desktop viewing and to keep the images within aspect ratio */
   .card-img img {
     object-fit: cover;
-    height: 600px;
+    /* height: 600px; */
     width: 500px;
   }
 
-  /* Used grid to help display the price cards in a row */
-  .price-card-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-  }
-  
-  .price-cards {
-    margin: 100px;
+  .bottom-card-highlight {
+    height: 25%;
   }
 
-  /* Contact Page at 1440px  */
+  /* Memberships Page */
+  /* Display of flex to align the price cards in a row */
+  .price-card-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .price-cards {
+    height: 500px;
+    /* margin: 100px; */
+  }
+
+  /* Contact Page */
 
   /* Display of flex aligns the form and contact photo in a row and can center them evenly across the page */
   .contact-section {
@@ -483,7 +576,9 @@ b {
     align-items: center;
   }
 
-  .contact-photo {
+  /* Contact Image */
+  /* Re-size the width to suit large screen viewing */
+  .contact-img {
     width: 50%
   }
 
@@ -494,6 +589,7 @@ b {
     align-items: center;
   }
 
+  /* Location Map */
   .location-map {
     width: 100%
   }
@@ -501,10 +597,10 @@ b {
   iframe {
     height: 500px
   }
-
+  
+  /* Contact Details */
   .contact-details {
     width: 50%;
   }
 
 }
-
