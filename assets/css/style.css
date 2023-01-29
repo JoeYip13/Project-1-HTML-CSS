@@ -601,6 +601,8 @@ b {
   /* Contact Details */
   .contact-details {
     width: 50%;
+    text-align: left;
+    margin-left: 20px ;
   }
 
 }

@@ -4,7 +4,7 @@
 
 <div align="center"><img src="assets/images/Feel-Good-Gym-Am-I-Responsive.jpg" alt="Feel Good Gym Am I Responsive Image"></div>
 
-[Feel Good Gym](https://joeyip13.github.io/Project-1-HTML-CSS/index.html) is designed as a portfolio for a gym website. Its goal is to highlight the gym and to create a motivation feel for wanting to sign up and become a member of at the gym. 
+[Feel Good Gym](https://joeyip13.github.io/Project-1-HTML-CSS/index.html) is designed as a portfolio for a gym website. Its goal is to highlight the gym and to create a motivational feel for wanting to sign up and become a member of the gym. 
 
 ## Table of Contents 
 
@@ -113,12 +113,12 @@ The Business Goals of Feel Good Gym and Training are:
 
 ### User Goals 
 User Goals are: 
-- Display a clean easy to navigate wesbite. 
+- Display a clean easy to navigate website. 
 - Easy to find pricing structure for signing up.
 - What unique courses/sessions the gym has to offer.  
 
 ### User Stories
-1. As a user interested in working out at a gym, I expect to see a easy to ready pricing structure.
+1. As a user interested in working out at a gym, I expect to see an easy to ready pricing structure.
 0. If I was to sign up and become a member, I expect to know where.
 0. Location of the gym and contact details should I have further questions about the gym. 
 0. Some clear photos of the gym facilities.
@@ -136,11 +136,11 @@ For Mobile:
 <div><img src="assets/images/Feel-Good-Gym-Design4.jpg" alt="Feel Good Gym Design on Figma"></div>
 
 ### Logo
-Adobe Express was used to create the logo. 
+Adobe Express was used to create the logo. From my prespective, I like the way visual images can instantly convey what a website is about. This is why I decided to create a logo of representation of Feel Good Gym and Training.   
 <div><img src="assets/images/Feel-Good-Logo-Design2.jpg" alt="Feel Good Gym Logo Design on Adobe Express"></div>
 
 ### Fonts 
-- Primary font was Inter 400. I chose this font because it showed a neutral, plain but informative. This font also worked well against the color scheme. 
+- Primary font was Inter 400. I chose this font because it showed a neutral, plain but informative feel. This font also worked well against the colour scheme. 
 <div><img src="assets/images/Google-Fonts-Inter-400.jpg" alt="Google Fonts Inter 400"></div>
 
 ### Icons
@@ -152,17 +152,17 @@ Adobe Express was used to create the logo.
 
 ### Colors 
 
-- I wanted the site to maintain a minimal aesthetic, colors are very basic and clean for highlighting the photos.
-The primary color used is black. With some contrasting grey which helps highlight certain areas of content on the webpage. White was used to offset the black. The use of the colors was to help with the overall layout of the page, initially on desktop it was to break up different sections of the page. 
-- Text was used either black or white depending on the back ground color of the page. I wanted it to be a good contrast between the pages. 
+- I wanted the site to maintain a minimal aesthetic, colours are very basic and clean for highlighting the photos.
+The primary colour used is black. With some contrasting grey which helps highlight certain areas of content on the webpage. White was used to offset the black. The use of the colours was to help with the overall layout of the page, initially on desktop it was to break up different sections of the page. 
+- Text was used either black or white depending on the back ground colour of the page. I wanted it to be a good contrast between the pages. 
 
 <div align="center"><img src="assets/images/colors.jpg" alt="Color pallete" style="border: 1px solid white"></div>
 
 ### Images
 
-<div align="center"><img src="assets/images/photos.jpg" alt="Images"></div>
+<div align="center"><img src="assets/images/images.jpg" alt="Images"></div>
 
-- All images are taken from Pexels. These images are consistent in style and color to the website. 
+- All images are taken from Pexels. These images are consistent in style and colour to the website. 
 - Images are responsive. For desktop they align in a row across the desktop and as the screen becomes smaller the images stack ontop of one another. 
 
 ### Styling 
@@ -181,11 +181,12 @@ The primary color used is black. With some contrasting grey which helps highligh
 
 - Featured on all five pages, the full responsive navigation bar includes links to the Logo, About, Memberships, Sessions, Contact page and is identical in each page to allow for easy navigation.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-- The Navigation Bar is simple keeping to the theme of website. 
+- The Navigation Bar is simple keeping to the theme of the website. 
 - Each link is categorised for easy to navigate through the website. 
 - The Navigation bar will highlight when the cursor is hovered over the link for a nice user experience.
 - The Navigation text will highlight bold when on that particular page, to identify which page the current user is on. 
 - For Mobile the logo will remain central on top of the screen and the nav bar will stack below for the user to easily scroll through with one hand. 
+- I used CSS Flexbox in the navigation bar in the media queries to give a responsive navigation bar.
 
 ### Footer
 <div align="center">
@@ -203,18 +204,20 @@ The primary color used is black. With some contrasting grey which helps highligh
     <img src="assets/images/index-page.jpg" alt="Index page Hero Section">
 </div>
 
-- The index page includes a image and a content box aligned next to each with a link that will take them directly to the contact page to sign up.
+- The index page includes an image and a content box aligned next to each other with a link that will take them directly to the contact page to sign up.
 - This displays a clear message from what the website is about. 
+- I used CSS Flexbox here to help center the content in the center of the background container. 
 
 ### About Page
 <div align="center">
     <img src="assets/images/about-us.jpg" alt="About us page">
 </div>
 
-- Three card layout is used to display the images and content used to decribe "about us".
-- A black transparent background behind the card's content helps emphasize the content. 
+- Three card layout is used to display the images and content used to describe "about us".
+- A black transparent background behind the card's content helps emphasise the content. 
 - The three cards are responsive and will stack ontop of another when the screen size becomes smaller for mobile viewing.
-- Images are used are consistent with the subject content. 
+- Images used are consistent with the subject content. 
+- I used CSS Flexbox in the About section to align the cards in a row and give a responsive layout.
 
 ### Memberships Page
 <div align="center">
@@ -231,7 +234,7 @@ The primary color used is black. With some contrasting grey which helps highligh
 </div>
 
 - Three card layout again is used to display the content cards. This is keeping with the same design as the About Us and Memberships page. 
-- A black transparent background behind the card's content helps emphasize the content. 
+- A black transparent background behind the card's content helps emphasise the content. 
 - Each card has a link to the contact page.
 - The three cards are responsive and will stack ontop of another when the screen size becomes smaller for mobile viewing.
 
@@ -240,7 +243,7 @@ The primary color used is black. With some contrasting grey which helps highligh
     <img src="assets/images/contact-page.jpg" alt="Contact page">
 </div>
 
-- This page will allow the user to get signed up to Feel Good Gym and Training or take them to the contact page for more infomaation. 
+- This page will allow the user to get signed up to Feel Good Gym and Training or take them to the contact page for more information. 
 - The user will be asked to submit their full name and email address.
 - Page is broken down into two sections the contact form section and the location section. I've used a black back ground for the contact form section and a white background for the location section for a much better contrast on the page. 
 - The interactive location map highlights the location of the gym so users can easy find the gym.
@@ -259,6 +262,7 @@ The primary color used is black. With some contrasting grey which helps highligh
 
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Links checked with [W3C Link Checker](https://validator.w3.org/checklink)
 
 ## PageSpeed Insights
 
@@ -292,9 +296,13 @@ The live link can be found here - https://github.com/JoeYip13/Project-1-HTML-CSS
 
 # Credits 
 
-- W3 Schools - https://www.w3schools.com/
+- Code Institute - [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template)
+I used Code Institute gitpod full template and HTML and CSS Essentials in the Full Stack Development course.
+- W3 Schools - [W3 Schools](https://www.w3schools.com/)
 - README.md for the template - https://github.com/Code-Institute-Solutions/readme-template
 - Rory Patrick Sheridan README.md to help with structure content in my README.md - https://github.com/Ri-Dearg/horizon-photo/blob/master/README.md#page-elements
+- Kevin Powell on YouTube - [Kevin Powell](https://www.youtube.com/@KevinPowell)
+- Web Dev Simplified on YouTube - [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified)
 
 ## Content 
 
